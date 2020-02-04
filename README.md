@@ -4,4 +4,6 @@
 4. Generate the key using `php artisan key:generate`
 5. Configure the `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD` and the `MAIL_XXX` in the .env
 6. Generate the database with `php artisan migrate --seed`
-7. Create an admin user using `php artisan user:admin:create {email} {password} {confirmPassword}`
+7. Generate the assets using `npm run production`
+8. Create an admin user using `php artisan user:admin:create {email} {password} {confirmPassword}`
+9. You can now start the server and login using the previously created user
