@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.authBody {
+    min-height: 100vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+        url('/img/Lock.png') no-repeat center, 
+        linear-gradient(135deg, $blue, $red)
+    ;
+}
+
+.bg-dark-transparent {
+    background-color: rgba(20, 23, 25, 0.7) !important;
+}
+
+.orderAvailable::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    padding-left: 5px;
+    content: "\f0dc";
+}
+
+.ascending::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    padding-left: 5px;
+    content: "\f0de";
+}
+
+.descending::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    padding-left: 5px;
+    content: "\f0dd";
+}
+
+.passwordInputGroup .directCopy::after {
+    content: "Copied!";
+    position: absolute;
+    top: -100%;
+    left: -50%;
+    color: inherit;
+    background-color: inherit;
+    padding: 5px;
+    opacity: 85%;
+    border-radius: 5px;
+    display: none;
+}
+
+.passwordInputGroup .directCopy.copied::after {
+    display: block!important;
+}
+
+.removeCredential {
+    color: red;
+}
