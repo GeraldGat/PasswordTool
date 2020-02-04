@@ -1,4 +1,4 @@
-1. Clone the repository using `git clone https://github.com/GeraldGat/YourPasswordTool`
+1. Clone the repository using `git clone https://github.com/GeraldGat/PasswordTool`
 2. Install the dependencies using `composer install` and `npm install`
 3. Create a .env file based on the .env.example
 4. Generate the key using `php artisan key:generate`
